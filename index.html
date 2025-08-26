@@ -32,9 +32,9 @@
   </head>
 
   <body class="">
-    <header class="shadow py-3 mx-auto">
+    <header class="shadow py-3 mx-auto border-b-2 border-gray-400">
       <div class="logo flex justify-center items-center">
-        <img src="./deshi-deals/assets/logo.png" alt="logo" class="w-17" />
+        <img src="./assets/logo.png" alt="logo" class="w-17" />
         <div class="ml-2">
           <h1 class="text-[#E71580] text-5xl">
             Deshi <span class="text-[#E71580] font-bold">Deals</span>
@@ -48,11 +48,11 @@
       <!-- banner section -->
       <section>
         <div
-          class="banner-section bg-gradient-to-t t-[#FFFFFF] from-[#F6DDEA] w-full md:lg:h-[834px]"
+          class="banner-section bg-gradient-to-t t-[#FFFFFF] from-[#F6DDEA] w-full md:lg:h-[934px] relative "
           id="banner"
         >
-          <div class="grid text-center mt-24">
-            <h1 class="text-5xl text-black font-bold">
+          <div class="grid text-center ">
+            <h1 class="text-5xl text-black font-bold mt-24">
               Purchase TK 200 or above & get
             </h1>
             <h1 class="text-[#E527B2] font-bold text-5xl mt-8">20% off</h1>
@@ -65,8 +65,8 @@
               SELL200
             </button>
           </div>
-          <div class="flex justify-center items-center lg:mt-17 md:mt-9">
-            <img src="./deshi-deals/assets/hero-bg.png" alt="All Product" />
+          <div class="flex justify-center items-center lg:mt-17 md:mt-9 ">
+            <img src="./assets/hero-bg.png" alt="All Product" class="max-w-[834px] w-full absolute -bottom-28" />
           </div>
         </div>
       </section>
@@ -87,15 +87,15 @@
               <div class="card bg-base-100 shadow-sm">
                 <figure class="bg-gray-200 m-5 rounded-xl">
                   <img
-                    src="./deshi-deals/assets/kitchen-1.png"
+                    src="./assets/kitchen-1.png"
                     alt="রান্না করার স্টিক"
                     class="rounded-xl py-5 px-5"
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">রান্না করার স্টিক</h2>
+                  <h2 id="card-title-1" class="card-title">রান্না করার স্টিক</h2>
                   <p>⭐⭐⭐⭐</p>
-                  <p class="text-gray-500">
+                  <p id="card-price-1" class="text-gray-500">
                     <span id="card-price-1">150.40</span> TK
                   </p>
                 </div>
@@ -113,7 +113,7 @@
               <div class="card bg-base-100 shadow-sm">
                 <figure class="bg-gray-200 m-5 rounded-xl">
                   <img
-                    src="./deshi-deals/assets/kitchen-2.png"
+                    src="./assets/kitchen-2.png"
                     alt="থালা বাটি"
                     class="rounded-xl py-5 px-5"
                   />
@@ -139,7 +139,7 @@
               <div class="card bg-base-100 shadow-sm">
                 <figure class="bg-gray-200 m-5 rounded-xl">
                   <img
-                    src="./deshi-deals/assets/kitchen-3.png"
+                    src="./assets/kitchen-3.png"
                     alt="স্টিলের হাড়ি"
                     class="rounded-xl py-5 px-5"
                   />
@@ -183,7 +183,7 @@
             <h2 class="font-bold">Cart</h2>
             <div id="cart-container">
               <div class="space-y-3">
-                <h2>Total Price : <span id="total-price"> 0 </span>TK</h2>
+                <h2>Total Price : <span id="total-price"> 0 </span> TK</h2>
                 <h2>
                   Total Quantity : <span id="total-quantity"> 0 </span>Items
                 </h2>
